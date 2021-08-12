@@ -2,3 +2,51 @@
   margin: 0;
   padding: 0;
 }
+
+.header-content-box {
+  display: flex;
+}
+
+.header-background {
+  position: absolute;
+  min-height: 30%;
+  max-width: 100%;
+}
+
+.top-bar-logo-nav {
+  position: sticky;
+  background-color: transparent;
+}
+
+.logo-img {
+  padding: 2rem 0 0 2rem;
+}
+
+.navigation-place-right {
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.profile-picture-client {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.client-heading,
+.center-main-message {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.photo-gallery-show-wide {
+  display: flex;
+  max-width: 100%;
+}
+
+.gallery {
+  max-width: 25%;
+}
