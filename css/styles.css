@@ -1,29 +1,79 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 .header-content-box {
-  display: flex;
+  background-image: url("/images/mobile/image-header.jpg");
+  width: auto;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
-.header-background {
-  position: absolute;
-  min-height: 30%;
-  max-width: 100%;
+.egg-picture {
+  background-image: url("/images/mobile/image-transform.jpg");
 }
 
-.top-bar-logo-nav {
-  position: sticky;
-  background-color: transparent;
+.cup-picture {
+  background-image: url("/images/mobile/image-stand-out.jpg");
 }
 
-.logo-img {
-  padding: 2rem 0 0 2rem;
+.graphic-design-text-img {
+  background-image: url("/images/mobile/image-graphic-design.jpg");
+}
+
+.photography-text-img {
+  background-image: url("/images/mobile/image-photography.jpg")
+}
+
+.egg-picture, .cup-picture, .graphic-design-text-img, .photography-text-img  {
+  width: auto;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.graphic-design-text-img, .photography-text-img {
+  height: 100vh;
+}
+
+.logo-top-left {
+  padding: 2rem 0 0 1.5rem;
 }
 
 .navigation-place-right {
-  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-message-arrow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.center-main-message {
+  color: hsl(0, 0%,  100%);
+  padding-top: 10vh;
+  margin: auto;
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.orange-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-down {
+  padding-top: 8vh;
 }
 
 ul {
@@ -42,11 +92,64 @@ ul {
   text-align: center;
 }
 
-.photo-gallery-show-wide {
+.photo-gallery-show-wide-desktop {
+  display: none;
+}
+
+.photo-gallery-show-wide-mobile {
   display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
 }
 
 .gallery {
-  max-width: 25%;
+  height: 25vh;
+  width: 50vw;
+}
+
+.brand-transform-text, .stand-out-text, .graphic-design-text-img, .photography-text-img, .wide-bottom-container {
+  text-align: center;
+}
+
+.name, .client-heading, .bold-learn-more {
+  font-family: 'Fraunces', serif;
+}
+
+.bold-learn-more {
+  text-transform: uppercase;
+}
+
+.position-title, .testimonial, .image-embedded-description, .service-description {
+  font-family: 'Barlow', sans-serif;
+  padding: 0 5vw 0 5vw;
+}
+
+.information-heading, .image-embedded-header {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+.information-heading {
+  font-size: 2em;
+  padding: 10vh 10vw 3vh 10vw;
+}
+
+.image-embedded-header {
+  font-size: 1.5em;
+}
+
+.bold-learn-more {
+  padding: 5vh 10vw 10vh 10vw;
+}
+
+.name {
+  padding: 3vh 0 1vh 0;
+}
+
+.client-heading {
+  padding: 8vh 0 8vh 0;
+  letter-spacing: 4px;
+}
+
+.client {
+  padding: 0 0 8vh 0;
 }
