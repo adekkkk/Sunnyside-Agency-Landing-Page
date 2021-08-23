@@ -5,7 +5,7 @@
 }
 
 .header-content-box {
-  background-image: url("/images/mobile/image-header.jpg");
+  background-image: url("../images/mobile/image-header.jpg");
   width: auto;
   height: 80vh;
   background-repeat: no-repeat;
@@ -14,19 +14,19 @@
 }
 
 .egg-picture {
-  background-image: url("/images/mobile/image-transform.jpg");
+  background-image: url("../images/mobile/image-transform.jpg");
 }
 
 .cup-picture {
-  background-image: url("/images/mobile/image-stand-out.jpg");
+  background-image: url("../images/mobile/image-stand-out.jpg");
 }
 
 .graphic-design-text-img {
-  background-image: url("/images/mobile/image-graphic-design.jpg");
+  background-image: url("../images/mobile/image-graphic-design.jpg");
 }
 
 .photography-text-img {
-  background-image: url("/images/mobile/image-photography.jpg")
+  background-image: url("../images/mobile/image-photography.jpg")
 }
 
 .egg-picture, .cup-picture, .graphic-design-text-img, .photography-text-img  {
@@ -46,6 +46,7 @@
 }
 
 .navigation-place-right {
+  visibility: hidden;
   position: absolute;
   right: 0;
   top: 0;
@@ -115,12 +116,20 @@ ul {
   font-family: 'Fraunces', serif;
 }
 
+.image-embedded-header {
+  padding-bottom: 5vh;
+}
+
 .image-embedded-header, .image-embedded-description {
   padding-top: 70vh;
 }
 
 .bold-learn-more {
   text-transform: uppercase;
+}
+
+.position-title {
+  font-size: 16px
 }
 
 .position-title, .testimonial, .image-embedded-description, .service-description {
@@ -156,4 +165,35 @@ ul {
 
 .client {
   padding: 0 0 8vh 0;
+}
+
+/* colouring header */
+
+.information-heading, .bold-learn-more, .name {
+  color: hsl(212, 27%, 19%);
+}
+
+.position-title, .client-heading {
+  color: hsl(210, 4%, 67%);
+}
+
+.testimonial {
+  color: hsl(210, 9.1%, 38.8%);
+}
+
+.service-description {
+  color: hsl(232, 10%, 55%);
+}
+
+#graphic-design, #graphic-design-description {
+  color: hsl(167, 40%, 24%);
+}
+
+#photography, #photography-description {
+  color: hsl(198, 62%, 26%);
+}
+
+footer {
+  min-height: 50vh;
+  background-color: hsl(167, 44.2%, 69.8%);
 }
